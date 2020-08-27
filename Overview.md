@@ -26,7 +26,7 @@
 * 目錄服務系統 （Directory service）: 簡單的說，就是你可以提供一個查詢的資料對應的內容，舉例來說，你可以提供一個『帳號名稱』，而在這個帳號名稱底下給予對應了密碼、UID、GID、真實姓名等資訊， 若用戶端使用帳號名稱來查詢目錄服務，則可以得到該帳號的密碼、UID等等資訊就是了。
 ## SSL/TLS 協定
 在一般的情況下，我們都是以http協定來閱讀web上的資料，但http協定中傳送的資料都是以明文的方式傳遞的，所以會有中間人攻擊(man-in-the-middle)的疑慮。為了解決這個問題，我們改採用https(secure http)協定，把中間傳遞的資訊加密，但https要怎麼實現?答案就是透過SSL/TLS這兩個協定。(https = http + ssl)[參考這個影片](https://www.youtube.com/watch?v=hExRDVZHhig)
-* SSL(secure sockets layer): 用公鑰來加密資料
+* SSL(secure sockets layer): 用公開金鑰加密法來加密資料
 * TLS(transport layer security): 是更新、更安全的 SSL 版本，可以認證server端跟client端。
 ## 公開金鑰演算法(非對稱式)
 ### DSS(Digital Signature Standard) 數位簽章
