@@ -39,3 +39,7 @@
 
 ## X.509
 X.509是密碼學裡公開金鑰認證的格式標準，X.509憑證里含有公鑰、身分資訊（比如網路主機名，組織的名稱或個體名稱等）和簽章資訊（可以是憑證簽發機構CA的簽章，也可以是自簽章）。
+## Stateless vs Stateful
+* Stateless: 就是指server不會去記住你現在的動作，例如連上google.com。
+* Stateful: server會記住你的動作，例如: 登入gmail.com，沒有登入就不能看信箱裡的內容。
+[參考連結](https://www.dotblogs.com.tw/jimmyyu/2010/10/16/difference-between-stateful-and-stateless)
